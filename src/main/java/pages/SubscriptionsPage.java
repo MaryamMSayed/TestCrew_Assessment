@@ -75,12 +75,7 @@ public SubscriptionsPage selectedCountry(String countryName)
     }
     return this;
 }
-@Step ("Close the country selection POP UP ")
-    public SubscriptionsPage closeCountryPopUp()
-{
-    ElementsActions.click(driver, closePopUp);
-    return this;
-}
+
 
 protected void compareListsValues(List<String> exp, List<WebElement> actual)
 {
