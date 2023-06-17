@@ -23,3 +23,5 @@ Kuwait and Baharin)
 
 ## Reporting Tool 
 - Allure Reporting tool 
+---
+> You have to install Allure Framework on your environment to be able to view the full test report 
