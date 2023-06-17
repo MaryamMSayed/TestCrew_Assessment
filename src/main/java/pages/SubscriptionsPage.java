@@ -16,7 +16,6 @@ public class SubscriptionsPage {
     private final By selectKSA= By.partialLinkText("KSA");
     private final By selectKuwait= By.id("kw");
     private final By selectBahrain= By.id("bh");
-    private final By closePopUp= By.id("country-poppup-close");
     private final By planTitle=By.className("plan-title");
     private final By price=By.className("price");
    private final List<String> expectedNames = Arrays.asList("LITE", "CLASSIC", "PREMIUM");
